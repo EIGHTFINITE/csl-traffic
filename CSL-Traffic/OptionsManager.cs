@@ -74,7 +74,7 @@ namespace CSL_Traffic
             m_realisticSpeedsCheckBox = group.AddCheckbox("Beta Test: Realistic Speeds", false, IgnoreMe) as UICheckBox;
             m_betaTestRoadCustomizerCheckBox = group.AddCheckbox("Beta Test: Road Customizer Tool", false, IgnoreMe) as UICheckBox;
             m_improvedAICheckBox = group.AddCheckbox("Beta Test: Improved AI", false, IgnoreMe) as UICheckBox;
-            m_ghostModeCheckBox = group.AddCheckbox("Ghost Mode (disables all mod functionality leaving only enough logic to load the map)", false, IgnoreMe) as UICheckBox;
+            m_ghostModeCheckBox = group.AddCheckbox("Ghost Mode (disables all mod functionality leaving only enough logic to load the map)", true, IgnoreMe) as UICheckBox;
 
             group.AddButton("Save", OnSave);
 
